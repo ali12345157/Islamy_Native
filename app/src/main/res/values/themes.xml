@@ -1,9 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="Base.Theme.Islamy_Native" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your light theme here -->
+        <item name="android:statusBarColor">@color/status</item>
+        <item name="colorPrimary">@color/status</item>
     </style>
 
+    <!-- Custom Bottom Navigation Indicator -->
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/shadow</item>
+    </style>
+
+    <!-- Application Theme -->
     <style name="Theme.Islamy_Native" parent="Base.Theme.Islamy_Native" />
 </resources>
