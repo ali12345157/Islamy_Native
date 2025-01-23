@@ -23,7 +23,7 @@ class Home : AppCompatActivity() {
           else if (menuItem.itemId==R.id.hadeth)
               navigate(hadeth())
           else if (menuItem.itemId==R.id.tasbeeh)
-              navigate(sebha())
+              navigate(ShebaFragment())
             else
                 navigate(radio())
             return@setOnItemSelectedListener true
